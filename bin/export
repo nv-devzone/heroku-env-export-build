@@ -1,4 +1,4 @@
 #!/bin/bash
-
-FLIPPER_ADAPTER=memory
-MEMORY_CACHE_STORE=1
+echo "Exporting Devzone build time env variables for heroku..."
+export FLIPPER_ADAPTER=memory
+export MEMORY_CACHE_STORE=1
