@@ -1,5 +1,9 @@
 #!/bin/bash
 env_file=$1/.heroku.env
+echo "sourcing file $env_file..."
+
 set -a # automatically export all variables
 source $env_file
 set +a
+
+echo "env file sourced"
