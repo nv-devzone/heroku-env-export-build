@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+echo "No compilation needed for this buildpack"
+exit 0
