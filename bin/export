@@ -1,0 +1,4 @@
+#!/bin/bash
+
+FLIPPER_ADAPTER=memory
+MEMORY_CACHE_STORE=1
